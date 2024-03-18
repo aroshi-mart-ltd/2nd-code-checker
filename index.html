@@ -96,6 +96,8 @@
         // Array to store used security codes
         var usedCodes = [];
 
+
+        
         function checkSecurityCode() {
             var securityCode = document.getElementById("securityCode").value;
             // List of known original security codes
@@ -119,6 +121,7 @@
                 'I1J2K3L4', '5M6N7O8P', '9Q0R1S2T', 'U3V4W5X6', 'Y7Z8A9B0',
                 'C1D2E3F4', 'G5H6I7J8', 'K9L0M1N2', 'O3P4Q5R6', 'S7T8U9V0',
                 'W1X2Y3Z4', 'A5B6C7D8', 'E9F0G1H2', 'I3J4K5L6', 'M7N8O9P0'
+                '70930Z7M' // New occurrence of the code
             ];
             // Remove spaces and convert to uppercase for comparison
             var sanitizedSecurityCode = securityCode.replace(/\s/g, "").toUpperCase();
